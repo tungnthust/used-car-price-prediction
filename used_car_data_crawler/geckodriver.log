@@ -2127,4 +2127,36 @@ TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
 TimedPromise@chrome://remote/content/marionette/sync.js:221:10
 interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
 webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
-1666965333465	Marionette	INFO	Stopped listening on port 6531
+1666965333465	Marionette	INFO	Stopped listening on port 65319
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 19960, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:723
+rionette enabled
+1666965308751	Marionette	INFO	Listening on port 65469
+WebDriver BiDi listening on ws://127.0.0.1:65458
+Read port: 65469
+1666965309040	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileNFVUp8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65458/devtools/browser/7b6aabc5-c656-42b4-9ef3-7ffa0070fa1f
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1666965321677	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nOAuMeOBpF9evwNFXVQkLuXNj92N0OJ7uU_f3Vfdro8.js line 2 > eval line 5226 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666965333520	Marionette	INFO	Stopped listening on port 65469
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1666965348280	geckodriver	INFO	Listening on 127.0.0.1:49213
+1666965351314	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49214" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileATYdhW"
+1666965351916	Marionette	INFO	Marionette enabled
+1666965351926	Marionette	INFO	Listening on port 49223
+Read port: 49223
+WebDriver BiDi listening on ws://127.0.0.1:49214
+1666965352073	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileATYdhW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49214/devtools/browser/176101a2-587b-4315-b57f-449181aea16c
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nOAuMeOBpF9evwNFXVQkLuXNj92N0OJ7uU_f3Vfdro8.js line 2 > eval line 83 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nOAuMeOBpF9evwNFXVQkLuXNj92N0OJ7uU_f3Vfdro8.js line 2 > eval line 5116 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.

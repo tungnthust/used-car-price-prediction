@@ -28,7 +28,6 @@ class EdmundsCrawlerSpider(scrapy.Spider):
     def parse_list(self, response):
         count = response.css('span.inventory-count::text').get()
         if int(count.replace(',', '')) > 0:
-            print("*****", count)
             for item in response.xpath('//*[@id="main-content"]/div[3]/div[1]/div[1]/div/ul/li').getall():
                 try:
                     link = 'https://www.edmunds.com'+scrapy.selector.Selector(text=item).xpath('body/li/div/div[2]/div/div[1]/div[1]/h2/a').attrib['href']
@@ -90,9 +89,7 @@ class EdmundsCrawlerSpider(scrapy.Spider):
                 edition = design_overview[0][:-2]
             except:
                 pass
-            print("&&&", design_overview)
             for type_ref in utils.CAR_TYPE:
-                print(type_ref)
                 if type_ref in design_overview[1]:
                     car_type = type_ref
                     break
