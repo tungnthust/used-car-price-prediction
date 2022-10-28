@@ -4,10 +4,13 @@ CAR_TYPE = [
     'Mega Cab',
     'Quad Cab',
     'SuperCab',
+    'SuperCrew'
     'Cargo Van',
+    'Regular Cab',
     'Convertible SUV',
     'Sedan',
     'SUV',
+    'Cab',
     'Coupe',
     'Full Size Van',
     'Hatchback',

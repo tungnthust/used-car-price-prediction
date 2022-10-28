@@ -51,7 +51,6 @@ class EdmundsCrawlerSpider(scrapy.Spider):
         vin_id = url[7]
         model = url[3]
         name = url[4].replace('-', ' ')
-        print("ABC", url_str)
         released_year = int(url[5])
         self.driver.get(url_str)
         time.sleep(1)
@@ -91,16 +90,18 @@ class EdmundsCrawlerSpider(scrapy.Spider):
                 edition = design_overview[0][:-2]
             except:
                 pass
+            print("&&&", design_overview)
             for type_ref in utils.CAR_TYPE:
+                print(type_ref)
                 if type_ref in design_overview[1]:
                     car_type = type_ref
                     break
         else:
             car_type_index = 0
             for type_ref in utils.CAR_TYPE:
-                if type_ref in overview:
+                if type_ref in overview_str:
                     car_type = type_ref
-                    car_type_index = overview.index(type_ref)
+                    car_type_index = overview_str.index(type_ref)
                     break
             edition = overview_str[:(car_type_index-1)]
 
@@ -136,13 +137,13 @@ class EdmundsCrawlerSpider(scrapy.Spider):
             transmission = None
 
         try:
-            electric_range = int(response.xpath('//*[@title="Electric range"]/parent::div/following-sibling::div/text()').get() \
+            electric_range = float(response.xpath('//*[@title="Electric range"]/parent::div/following-sibling::div/text()').get() \
                             .split('mi')[0])
         except:
             electric_range = None
 
         try:
-            electric_charge_time = int(response.xpath('//*[@title="Electric charge time"]/parent::div/following-sibling::div/text()').get() \
+            electric_charge_time = float(response.xpath('//*[@title="Electric charge time"]/parent::div/following-sibling::div/text()').get() \
                             .split('hr')[0])
         except:
             electric_charge_time = None
