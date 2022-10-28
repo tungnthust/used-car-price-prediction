@@ -12,7 +12,6 @@ BOT_NAME = 'used_car_data_crawler'
 SPIDER_MODULES = ['used_car_data_crawler.spiders']
 NEWSPIDER_MODULE = 'used_car_data_crawler.spiders'
 
-
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'used_car_data_crawler (+http://www.yourdomain.com)'
 

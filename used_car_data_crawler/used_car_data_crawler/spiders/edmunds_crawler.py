@@ -1,24 +1,28 @@
+import time
+from shutil import which
+
 import scrapy
 import re
 from . import utils
+from selenium import webdriver
 
-class EmundsCrawlerSpider(scrapy.Spider):
-    name = 'emunds_crawler'
+class EdmundsCrawlerSpider(scrapy.Spider):
+    name = 'edmunds_crawler'
 
-    origin = 'https://www.edmunds.com/inventory/srp.html?inventorytype=used%2Ccpo&radius=500&price='
+    origin = 'https://www.edmunds.com/inventory/srp.html?inventorytype=used%2Ccpo&radius=500&engineType=electric&price='
     allowed_domains = ['www.edmunds.com']
-    start_urls = ['https://www.edmunds.com/inventory/srp.html?inventorytype=used%2Ccpo&radius=500&price=0-10000']
-    # driver = webdriver.Firefox(executable_path=r'C:\Users\Lenovo\Desktop\ML\geckodriver-v0.32.0-win64\geckodriver.exe')
+    start_urls = ['https://www.edmunds.com/inventory/srp.html?inventorytype=used%2Ccpo&radius=500&engineType=electric&price=0-10000']
+    driver = webdriver.Firefox(executable_path=which('geckodriver'))
 
     def parse(self, response):
         for i in range(0, 100):
             # Small step size (2000) for price = 0 - 40,000
             if i < 4:
                 for j in range(5):
-                    yield response.follow(self.origin + f'{j*2000+i*10000+1}-{(j+1)*2000 + i*10000}' + '&pagenumber=2',
+                    yield response.follow(self.origin + f'{j*2000+i*10000+1}-{(j+1)*2000 + i*10000}',
                                           callback=self.parse_list)
             else:
-                yield response.follow(self.origin + f'{i * 10000 + 1}-{(i + 1) * 10000}' + '&pagenumber=2',
+                yield response.follow(self.origin + f'{i * 10000 + 1}-{(i + 1) * 10000}',
                                       callback=self.parse_list)
 
     def parse_list(self, response):
@@ -28,30 +32,49 @@ class EmundsCrawlerSpider(scrapy.Spider):
             for item in response.xpath('//*[@id="main-content"]/div[3]/div[1]/div[1]/div/ul/li').getall():
                 try:
                     link = 'https://www.edmunds.com'+scrapy.selector.Selector(text=item).xpath('body/li/div/div[2]/div/div[1]/div[1]/h2/a').attrib['href']
-                    # self.driver.get(link)
 
                     yield response.follow(link,
                                           callback=self.parse_data)
                 except:
                     print("----------------------Skip----------------------")
             try:
-                # page_num = response.request.url
-                next_page = response.xpath('//*[@id="main-content"]/div[3]/div[1]/div[1]/div/div[2]/div[1]/a[2]').attrib['href']
+                next_page = response.xpath('//*[@aria-label="Next Listing Page"]').attrib['href']
                 if next_page is not None:
-                    # next_page = response.xpath('//*[@id="main-content"]/div[3]/div[1]/div[1]/div/div[2]/div[1]/a').attrib['href']
+
                     yield scrapy.Request(response.urljoin(next_page), callback=self.parse_list)
             except:
                 print("----------------------End----------------------")
 
     def parse_data(self, response):
-        url = response.request.url.split('/')
+        url_str = response.request.url
+        url = url_str.split('/')
+        vin_id = url[7]
         model = url[3]
         name = url[4].replace('-', ' ')
+        print("ABC", url_str)
         released_year = int(url[5])
-        # self.driver.get(response.request.url)
-        # button = self.driver.find_element('xpath', '//*[contains(@data-subaction-name, "view-features")]')
-        # button.click()
-        # response = scrapy.selector.Selector(text=self.driver.page_source.encode('utf-8'))
+        self.driver.get(url_str)
+        time.sleep(1)
+        try:
+            view_more_info_button = self.driver.find_element('xpath',
+                                                             '//*[contains(@class, "options-and-packages")]/button')
+            view_more_info_button.click()
+        except:
+            pass
+
+        try:
+            button = self.driver.find_element('xpath', '//*[contains(@data-subaction-name, "view_features")]')
+            button.click()
+        except:
+            try:
+                view_more_info_button = self.driver.find_element('xpath', '//*[contains(@class, "features-and-specs")]/button')
+                view_more_info_button.click()
+                button = self.driver.find_element('xpath', '//*[contains(@data-subaction-name, "view_features")]')
+                button.click()
+            except:
+                pass
+
+        response = scrapy.selector.Selector(text=self.driver.page_source.encode('utf-8'))
         try:
             overview_str = response.xpath('//*[@id="overview"]/section/div/div[1]/div[2]/span/text()').get()
             overview = re.split(' \(|\)', overview_str)
@@ -106,8 +129,23 @@ class EmundsCrawlerSpider(scrapy.Spider):
             interior_color = response.xpath('//*[@id="vin_interior_color_swatch"]/span/@style').get().split(':')[1]
         except:
             interior_color = None
-        transmission = response.xpath('//*[@title="Transmission"]/parent::div/following-sibling::div/text()').get() \
-            .split()[0]
+        try:
+            transmission = response.xpath('//*[@title="Transmission"]/parent::div/following-sibling::div/text()').get() \
+                .split()[0]
+        except:
+            transmission = None
+
+        try:
+            electric_range = int(response.xpath('//*[@title="Electric range"]/parent::div/following-sibling::div/text()').get() \
+                            .split('mi')[0])
+        except:
+            electric_range = None
+
+        try:
+            electric_charge_time = int(response.xpath('//*[@title="Electric charge time"]/parent::div/following-sibling::div/text()').get() \
+                            .split('hr')[0])
+        except:
+            electric_charge_time = None
 
         try:
             drive_train = response.xpath('//*[@title="Drivetrain"]/parent::div/following-sibling::div/text()').get()
@@ -166,7 +204,13 @@ class EmundsCrawlerSpider(scrapy.Spider):
         except:
             options_cost = 0
 
+        features = response.xpath('//*[contains(@class, "modal-content")]/div/ul/li/span/text()').getall()
+        if len(features) == 0:
+            features = response.xpath(
+                '//*[contains(@class, "features-and-specs")]/div/div/div/ul/li/text()').getall()
+
         output = {
+            'vin_id': vin_id,
             'model': model,
             'name': name,
             'released_year': released_year,
@@ -183,12 +227,16 @@ class EmundsCrawlerSpider(scrapy.Spider):
             'engine_type': engine_type,
             'horse_power': horse_power,
             'fuel_consumption': fuel_consumption,
+            'electric_range': electric_range,
+            'electric_charge_time': electric_charge_time,
             'num_seats': num_seats,
             'num_accidents': num_accidents,
             'num_owners': num_owners,
             'usage': usage,
+            'features': features,
             'options_cost': options_cost,
-            'price': price
+            'price': price,
+            'url': url_str
         }
 
         yield output

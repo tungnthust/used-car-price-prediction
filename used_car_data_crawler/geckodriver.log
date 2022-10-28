@@ -1,0 +1,1323 @@
+1666885662557	geckodriver	INFO	Listening on 127.0.0.1:54166
+1666888149333	geckodriver	INFO	Listening on 127.0.0.1:55125
+1666888152369	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55126" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilew1SFJD"
+1666888152985	Marionette	INFO	Marionette enabled
+1666888152994	Marionette	INFO	Listening on port 55136
+Read port: 55136
+WebDriver BiDi listening on ws://127.0.0.1:55126
+1666888153134	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilew1SFJD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55126/devtools/browser/7d6632de-6c08-4f3a-9893-bac06ff3c581
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nOAuMeOBpF9evwNFXVQkLuXNj92N0OJ7uU_f3Vfdro8.js line 2 > eval line 435 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666888390088	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1666888818785	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1666889017038	Marionette	INFO	Stopped listening on port 55136
+1666889028771	geckodriver	INFO	Listening on 127.0.0.1:55934
+1666889031772	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55935" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileOhcW42"
+1666889032901	Marionette	INFO	Marionette enabled
+1666889032912	Marionette	INFO	Listening on port 55946
+Read port: 55946
+WebDriver BiDi listening on ws://127.0.0.1:55935
+1666889033046	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileOhcW42\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55935/devtools/browser/ed8d67bb-85e5-4949-9376-9f425d61ab74
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nOAuMeOBpF9evwNFXVQkLuXNj92N0OJ7uU_f3Vfdro8.js line 2 > eval line 6389 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Handler function _httpStopRequest threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/server/actors/network-monitor/utils/network-utils.js:98:1
+exports.createNetworkEvent@resource://devtools/server/actors/network-monitor/utils/network-utils.js:187:33
+_createNetworkEvent@resource://devtools/server/actors/network-monitor/network-observer.js:731:32
+_httpStopRequest@resource://devtools/server/actors/network-monitor/network-observer.js:358:14
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 98, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/server/actors/network-monitor/utils/network-utils.js", 98))
+1666889198537	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1666890625926	Marionette	INFO	Stopped listening on port 55946
+57037
+Read port: 57037
+WebDriver BiDi listening on ws://127.0.0.1:57028
+1666890555814	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilesBEgBq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57028/devtools/browser/eba56ed0-044e-4043-8570-a9abbf322de5
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nOAuMeOBpF9evwNFXVQkLuXNj92N0OJ7uU_f3Vfdro8.js line 2 > eval line 7126 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nOAuMeOBpF9evwNFXVQkLuXNj92N0OJ7uU_f3Vfdro8.js line 2 > eval line 5833 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nOAuMeOBpF9evwNFXVQkLuXNj92N0OJ7uU_f3Vfdro8.js line 2 > eval line 5506 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+1666890859929	geckodriver	INFO	Listening on 127.0.0.1:57780
+1666890862940	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57781" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilenymDFH"
+1666890863985	Marionette	INFO	Marionette enabled
+1666890863998	Marionette	INFO	Listening on port 57792
+WebDriver BiDi listening on ws://127.0.0.1:57781
+Read port: 57792
+1666890864357	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilenymDFH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57781/devtools/browser/1e0b896a-1589-460c-8683-bfa9d06f08a9
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+1666928600581	geckodriver	INFO	Listening on 127.0.0.1:51318
+1666928603641	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51319" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileEFXbVm"
+1666928605000	Marionette	INFO	Marionette enabled
+1666928605013	Marionette	INFO	Listening on port 51328
+Read port: 51328
+WebDriver BiDi listening on ws://127.0.0.1:51319
+1666928605163	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 420))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileEFXbVm\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51319/devtools/browser/d14f019c-d742-41e3-aae1-792cc9dcad3b
+1666928608512	Marionette	INFO	Stopped listening on port 51328
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 17292, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1666946325921	geckodriver	INFO	Listening on 127.0.0.1:64678
+1666946328921	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64679" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilef4HDDe"
+1666946329966	Marionette	INFO	Marionette enabled
+1666946329978	Marionette	INFO	Listening on port 64691
+Read port: 64691
+WebDriver BiDi listening on ws://127.0.0.1:64679
+1666946330117	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilef4HDDe\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64679/devtools/browser/765aa201-4b66-488f-8622-35ae3264fa36
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 4028 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 6948 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666946433018	geckodriver	INFO	Listening on 127.0.0.1:64891
+1666946436033	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64892" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileVkwVUW"
+1666946436804	Marionette	INFO	Marionette enabled
+1666946436815	Marionette	INFO	Listening on port 64902
+Read port: 64902
+WebDriver BiDi listening on ws://127.0.0.1:64892
+1666946436915	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileVkwVUW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64892/devtools/browser/2801f59a-f926-4540-8428-d5fcf521dd93
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 6477 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 5688 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 6031 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 1779 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "Tried to send a 'getApplied' method reply on an already destroyed actor 'pagestyle'"
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967361/layout23, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:48:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:448:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967363/layout23, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:48:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:448:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967371/layout23, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:48:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:448:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967368/layout23, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:48:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:448:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967359/layout97, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:48:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:448:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967359/pagestyle24, type getApplied failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:48:19\ngetApplied@resource://devtools/client/fronts/page-style.js:59:29\npopulate@resource://devtools/client/inspector/rules/models/element-style.js:123:8\n_populate@resource://devtools/client/inspector/rules/rules.js:1117:8\nrefreshPanel/<@resource://devtools/client/inspector/rules/rules.js:1052:19\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967359/pagestyle24, type getApplied failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:48:19\ngetApplied@resource://devtools/client/fronts/page-style.js:59:29\npopulate@resource://devtools/client/inspector/rules/models/element-style.js:123:8\n_populate@resource://devtools/client/inspector/rules/rules.js:1117:8\nselectElement/<@resource://devtools/client/inspector/rules/rules.js:1010:23\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967359/pagestyle24, type getApplied failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:48:19\ngetApplied@resource://devtools/client/fronts/page-style.js:59:29\nupdateBoxModel/lastRequest<@resource://devtools/client/inspector/boxmodel/box-model.js:187:44\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967359/pagestyle24, type getApplied failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:48:19\ngetApplied@resource://devtools/client/fronts/page-style.js:59:29\npopulate@resource://devtools/client/inspector/rules/models/element-style.js:123:8\n_populate@resource://devtools/client/inspector/rules/rules.js:1117:8\nrefreshPanel/<@resource://devtools/client/inspector/rules/rules.js:1052:19\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967359/pagestyle24, type getApplied failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:48:19\ngetApplied@resource://devtools/client/fronts/page-style.js:59:29\npopulate@resource://devtools/client/inspector/rules/models/element-style.js:123:8\n_populate@resource://devtools/client/inspector/rules/rules.js:1117:8\nselectElement/<@resource://devtools/client/inspector/rules/rules.js:1010:23\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967359/pagestyle24, type getApplied failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:48:19\ngetApplied@resource://devtools/client/fronts/page-style.js:59:29\npopulate@resource://devtools/client/inspector/rules/models/element-style.js:123:8\n_populate@resource://devtools/client/inspector/rules/rules.js:1117:8\nselectElement/<@resource://devtools/client/inspector/rules/rules.js:1010:23\n", "resource://devtools/shared/protocol/Front.js", 106))
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 106: Error: Connection closed, pending request to server0.conn0.windowGlobal4294967359/domwalker23, type getNodeActorFromContentDomReference failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:300:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:48:19
+getNodeActorFromContentDomReference@resource://devtools/client/fronts/walker.js:155:34
+getNodeActorFromContentDomReference@resource://devtools/client/fronts/inspector.js:259:26
+inspectNode@resource://devtools/client/framework/devtools.js:837:54
+
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 106: Error: Connection closed, pending request to server0.conn0.windowGlobal4294967359/pagestyle24, type getApplied failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:300:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:48:19
+getApplied@resource://devtools/client/fronts/page-style.js:59:29
+populate@resource://devtools/client/inspector/rules/models/element-style.js:123:8
+_populate@resource://devtools/client/inspector/rules/rules.js:1117:8
+refreshPanel/<@resource://devtools/client/inspector/rules/rules.js:1052:19
+
+console.error: "Unable to find target with innerWindowId:4294967361"
+console.error: "Tried to send a 'getApplied' method reply on an already destroyed actor 'pagestyle'"
+console.error: "Unable to find target with innerWindowId:4294967359"
+console.warn: "Listener for event 'frame' did not return a promise."
+console.error: "Unable to find target with innerWindowId:4294967359"
+console.error: "Unable to find target with innerWindowId:4294967359"
+console.error: "Unable to find target with innerWindowId:4294967359"
+console.error: "Unable to find target with innerWindowId:4294967359"
+console.error: "Unable to find target with innerWindowId:4294967359"
+console.error: "Unable to find target with innerWindowId:4294967359"
+console.error: "Unable to find target with innerWindowId:4294967359"
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 2035 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "Unable to find target with innerWindowId:4294967375"
+console.error: "Unable to find target with innerWindowId:4294967375"
+console.error: "Unable to find target with innerWindowId:4294967372"
+console.error: "Unable to find target with innerWindowId:4294967372"
+console.error: "Unable to find target with innerWindowId:4294967372"
+console.error: "Unable to find target with innerWindowId:4294967372"
+console.error: "Unable to find target with innerWindowId:4294967372"
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 4757 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "Unable to find target with innerWindowId:4294967390"
+console.error: "Unable to find target with innerWindowId:4294967390"
+console.error: "Unable to find target with innerWindowId:4294967390"
+console.error: "Unable to find target with innerWindowId:4294967390"
+console.error: "Unable to find target with innerWindowId:4294967390"
+console.error: "Unable to find target with innerWindowId:4294967390"
+console.error: "Unable to find target with innerWindowId:4294967408"
+console.error: "Unable to find target with innerWindowId:4294967408"
+console.error: "Unable to find target with innerWindowId:4294967408"
+console.error: "Unable to find target with innerWindowId:4294967408"
+console.error: "Unable to find target with innerWindowId:4294967409"
+console.error: "Unable to find target with innerWindowId:4294967409"
+console.error: "Unable to find target with innerWindowId:4294967410"
+console.error: "Unable to find target with innerWindowId:4294967410"
+console.error: "Unable to find target with innerWindowId:4294967411"
+console.error: "Unable to find target with innerWindowId:4294967411"
+console.error: "Unable to find target with innerWindowId:4294967411"
+console.error: "Unable to find target with innerWindowId:4294967411"
+console.warn: "Listener for event 'frame' did not return a promise."
+console.error: "Unable to find target with innerWindowId:4294967415"
+console.error: "Unable to find target with innerWindowId:4294967415"
+console.error: "Unable to find target with innerWindowId:4294967412"
+console.error: "Unable to find target with innerWindowId:4294967412"
+console.error: "Unable to find target with innerWindowId:4294967412"
+console.error: "Unable to find target with innerWindowId:4294967412"
+console.error: "Unable to find target with innerWindowId:4294967426"
+console.error: "Unable to find target with innerWindowId:4294967426"
+console.error: "Unable to find target with innerWindowId:4294967420"
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 3500: TypeError: data.frameData.id is null
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 3500: TypeError: data.frameData.id is null
+console.error: "Unable to find target with innerWindowId:4294967426"
+console.error: "Unable to find target with innerWindowId:4294967420"
+console.error: "Unable to find target with innerWindowId:4294967426"
+console.warn: "Error while destroying front:" "inspector" (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967427/inspectorActor4, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:48:19\n_getWalker@resource://devtools/client/fronts/inspector.js:89:30\ninitialize@resource://devtools/client/fronts/inspector.js:78:12\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: "Failed to start [root-node] legacy listener for target null" (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967427/inspectorActor4, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:48:19\n_getWalker@resource://devtools/client/fronts/inspector.js:89:30\ninitialize@resource://devtools/client/fronts/inspector.js:78:12\n", "resource://devtools/shared/protocol/Front.js", 106))
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 106: Error: Connection closed, pending request to server0.conn0.windowGlobal4294967427/inspectorActor4, type getWalker failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:300:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:48:19
+_getWalker@resource://devtools/client/fronts/inspector.js:89:30
+initialize@resource://devtools/client/fronts/inspector.js:78:12
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1666946520450	Marionette	INFO	Stopped listening on port 64902
+1666946682639	geckodriver	INFO	Listening on 127.0.0.1:49301
+1666946685682	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49302" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileOn01we"
+1666946686324	Marionette	INFO	Marionette enabled
+1666946686338	Marionette	INFO	Listening on port 49313
+Read port: 49313
+WebDriver BiDi listening on ws://127.0.0.1:49302
+1666946686447	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileOn01we\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49302/devtools/browser/88207eb2-2f92-4d9d-adf1-653774889075
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 224 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 5237 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 448 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 2061 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 1613 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 5021 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 7798 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 6655 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 189 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 6621 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 6958 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 5745 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 6545 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 4833 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 4814 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 2624 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 1882 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 4116 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 4033 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 5304 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 4859 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 3573 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666946827096	Marionette	INFO	Stopped listening on port 49313
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1666947332770	geckodriver	INFO	Listening on 127.0.0.1:50443
+1666947335815	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50444" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileu4fUpY"
+1666947336409	Marionette	INFO	Marionette enabled
+1666947336422	Marionette	INFO	Listening on port 50454
+Read port: 50454
+WebDriver BiDi listening on ws://127.0.0.1:50444
+1666947336531	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileu4fUpY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50444/devtools/browser/db10c064-2eb6-4629-b89b-c0dbe0eaeb1d
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 1996 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 7587 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 281 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666947360836	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 824 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666947367619	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 7610 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 3580 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 1982 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 1507 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 2084 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 4404 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 7236 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 4453 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666947409249	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 431 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 6673 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666947418536	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 5821 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 4953 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666947429712	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 7105 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666947436353	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 1801 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666947444063	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 5236 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 548 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 6562 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 1258 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 3376 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 1048 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 4100 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 1865 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 1829 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 5384 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 5676 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 5638 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 6264 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 3310 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 661 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 6275 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 4541 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 5690 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 1315 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 4507 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 7369 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 3975 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 102 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 3521 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 4151 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666947554174	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 1067 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666947558916	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 1233 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666947564715	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1666947570429	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 2757 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 3140 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 568 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 1137 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 4676 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 3836 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 4238 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 1762 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 6349 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 5810 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 2616 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 4609 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 3404 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 3070 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 3167 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 7690 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 4194 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 5777 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 4116 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 7323 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 4146 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 1426 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 2807 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 3380 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 1366 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 781 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 5404 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 3547 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 7562 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 2050 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 5180 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 7523 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 2923 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 861 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 6090 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 1688 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 7561 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 2339 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 4866 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 4055 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 4951 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 7150 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666947775384	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 3460 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666947781024	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 6594 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 453 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666947792337	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 6583 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666947797478	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 1872 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666947803527	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 3428 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666947813860	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 133 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 5422 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 2462 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666947834571	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1666947839252	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 1142 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 3166 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666947845582	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 6425 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666947850567	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 5263 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666947856598	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 4275 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 6444 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666947866683	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 6837 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666947874206	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1666947879921	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 6201 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666947887112	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 2109 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666947893496	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 7070 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666947899977	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 5022 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666947905590	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 244 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 3530 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666947915717	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 2125 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 3689 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 7210 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 1073 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 4358 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 2938 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 5344 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 6426 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 2792 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 7271 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 1967 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 2737 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 2 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 2068 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 6422 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 3609 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 1260 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 5080 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 1225 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666947992150	Marionette	INFO	Stopped listening on port 50454
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 15108, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1666949002243	geckodriver	INFO	Listening on 127.0.0.1:52749
+1666949005304	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52750" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileh4kbTl"
+1666949005917	Marionette	INFO	Marionette enabled
+1666949005927	Marionette	INFO	Listening on port 52761
+WebDriver BiDi listening on ws://127.0.0.1:52750
+Read port: 52761
+1666949006141	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileh4kbTl\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52750/devtools/browser/a69e2d40-2d85-4cd6-a597-6e677ff02b11
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 7132 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666949158755	Marionette	INFO	Stopped listening on port 52761
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1666949284837	geckodriver	INFO	Listening on 127.0.0.1:53252
+1666949287890	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53253" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileD6Rwc0"
+1666949288543	Marionette	INFO	Marionette enabled
+1666949288553	Marionette	INFO	Listening on port 53263
+Read port: 53263
+WebDriver BiDi listening on ws://127.0.0.1:53253
+1666949288669	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileD6Rwc0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53253/devtools/browser/5a6cb344-0d41-474c-8a49-31a195e649c9
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 4221 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666949305470	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1666949410083	geckodriver	INFO	Listening on 127.0.0.1:53453
+1666949413110	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53454" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileb5f7TD"
+1666949413685	Marionette	INFO	Marionette enabled
+1666949413695	Marionette	INFO	Listening on port 53466
+WebDriver BiDi listening on ws://127.0.0.1:53454
+Read port: 53466
+1666949413978	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileb5f7TD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53454/devtools/browser/2c80f2e2-c4b3-40ab-b9ee-e426ce5397fd
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 5809 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666949423279	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1666949424013	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1666949547730	geckodriver	INFO	Listening on 127.0.0.1:53742
+1666949550763	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53743" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileiDHUPf"
+1666949551221	Marionette	INFO	Marionette enabled
+1666949551236	Marionette	INFO	Listening on port 53754
+Read port: 53754
+WebDriver BiDi listening on ws://127.0.0.1:53743
+1666949551337	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileiDHUPf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53743/devtools/browser/776bcaed-8907-4081-bdb0-be4b4c63ba7b
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 2058 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666949567263	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1666949591504	geckodriver	INFO	Listening on 127.0.0.1:53878
+1666949594528	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53879" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile22IhwC"
+1666949595080	Marionette	INFO	Marionette enabled
+1666949595092	Marionette	INFO	Listening on port 53890
+Read port: 53890
+WebDriver BiDi listening on ws://127.0.0.1:53879
+1666949595199	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile22IhwC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53879/devtools/browser/58751d90-3cf0-42e3-8430-f9c5cf010f66
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1666949607813	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1666949608560	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1666949621737	geckodriver	INFO	Listening on 127.0.0.1:54108
+1666949624777	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54109" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile8ZOglH"
+1666949625233	Marionette	INFO	Marionette enabled
+1666949625244	Marionette	INFO	Listening on port 54120
+Read port: 54120
+WebDriver BiDi listening on ws://127.0.0.1:54109
+1666949625335	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile8ZOglH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54109/devtools/browser/a76aa220-03f8-4747-9f14-4083beb684d8
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1666949676816	geckodriver	INFO	Listening on 127.0.0.1:54303
+1666949679874	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54304" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileb4O4d9"
+1666949680330	Marionette	INFO	Marionette enabled
+1666949680340	Marionette	INFO	Listening on port 54315
+WebDriver BiDi listening on ws://127.0.0.1:54304
+Read port: 54315
+1666949680629	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileb4O4d9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54304/devtools/browser/3413332c-bded-4e6c-8c84-93fba493a1da
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 5259 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666949761954	geckodriver	INFO	Listening on 127.0.0.1:54475
+1666949764986	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54476" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileG7cLTL"
+1666949765529	Marionette	INFO	Marionette enabled
+1666949765543	Marionette	INFO	Listening on port 54488
+Read port: 54488
+WebDriver BiDi listening on ws://127.0.0.1:54476
+1666949765649	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileG7cLTL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54476/devtools/browser/b416b569-ff7c-44a5-8840-f501a74425d7
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 1675 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666949886899	geckodriver	INFO	Listening on 127.0.0.1:54830
+1666949889933	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54831" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile98090f"
+1666949890399	Marionette	INFO	Marionette enabled
+1666949890409	Marionette	INFO	Listening on port 54841
+Read port: 54841
+WebDriver BiDi listening on ws://127.0.0.1:54831
+1666949890521	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile98090f\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54831/devtools/browser/c44781c6-51b8-4cfe-88b0-b5b7b752b6bc
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 7473 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666949901983	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1666949902718	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1666949903452	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1666949985208	geckodriver	INFO	Listening on 127.0.0.1:55026
+1666949988225	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55027" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileBi3qa6"
+1666949988810	Marionette	INFO	Marionette enabled
+1666949988824	Marionette	INFO	Listening on port 55037
+WebDriver BiDi listening on ws://127.0.0.1:55027
+Read port: 55037
+1666949989105	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileBi3qa6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55027/devtools/browser/c581d736-7e36-420c-8d59-a8238325439f
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 3289 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666950148633	geckodriver	INFO	Listening on 127.0.0.1:55494
+1666950151680	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55495" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile9XdWiY"
+1666950152278	Marionette	INFO	Marionette enabled
+1666950152290	Marionette	INFO	Listening on port 55505
+Read port: 55505
+WebDriver BiDi listening on ws://127.0.0.1:55495
+1666950152417	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile9XdWiY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55495/devtools/browser/6e83d0a6-9d0d-46c6-9863-5ebacff02a8e
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 3785 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 997 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 3623 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 4457 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 4209 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 1586 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666950185880	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1666950186607	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 4310 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 5432 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666950195608	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 7227 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666950200497	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 1535 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666950206190	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 957 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666950211736	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1666950270036	geckodriver	INFO	Listening on 127.0.0.1:56138
+1666950273067	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56139" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofiletgoJa7"
+1666950273598	Marionette	INFO	Marionette enabled
+1666950273609	Marionette	INFO	Listening on port 56150
+Read port: 56150
+WebDriver BiDi listening on ws://127.0.0.1:56139
+1666950273716	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofiletgoJa7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56139/devtools/browser/ec7fa408-c3c4-48d1-bccf-4c74af2406b4
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 6641 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 366 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 2343 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 2499 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 3526 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 5232 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 5067 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666950309145	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 7068 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666950314475	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 3146 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666950320352	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 6685 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666950325398	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 3242 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666950330472	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 5921 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666950335748	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 3377 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666950341377	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 1465 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666950346926	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 7514 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666950362333	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: https://venom-assets.edmunds-media.com/app.chunk.29b5e5631ef242a64e2f.js, line 1: Error: Request to /gateway/api/usedaprs/v1/?styleId=401819398&zipCode=58067&vehicleAge=2&creditScore=725&vehicleMileage=undefined failed, got status 404
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 1077 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 6757 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666950373218	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1666950377931	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 2249 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666950383762	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1666950388270	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 3551 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666950393810	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1666950394558	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 4299 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 6299 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666950404804	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 7115 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666950410203	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 1767 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666950415551	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 6716 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666950420716	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 5792 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666950426420	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 7098 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 173 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 1658 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666950440287	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 4750 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666950450552	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 327 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666950456912	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1666950568258	geckodriver	INFO	Listening on 127.0.0.1:56682
+1666950571270	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56683" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilekyE2uB"
+1666950571972	Marionette	INFO	Marionette enabled
+1666950571986	Marionette	INFO	Listening on port 56694
+WebDriver BiDi listening on ws://127.0.0.1:56683
+Read port: 56694
+1666950572349	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilekyE2uB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56683/devtools/browser/ab2d5709-4499-444e-982c-7aae8f83e8f8
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 5859 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 4723 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 2279 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 1251 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 5582 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 760 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666950613611	Marionette	INFO	Stopped listening on port 56694
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1666951072254	geckodriver	INFO	Listening on 127.0.0.1:57272
+1666951075304	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57273" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileNJ1qiO"
+1666951075935	Marionette	INFO	Marionette enabled
+1666951075946	Marionette	INFO	Listening on port 57284
+Read port: 57284
+WebDriver BiDi listening on ws://127.0.0.1:57273
+1666951076054	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileNJ1qiO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57273/devtools/browser/b3fe360d-080e-495e-bc73-4e8ff8c41ad2
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 1999 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 6173 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 563 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 6568 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 380 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 2921 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 6175 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 212 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 4722 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 3373 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 2183 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666951131283	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 2829 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666951135907	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 1396 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 2573 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666951145451	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1666951146181	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1666951149936	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 6988 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 1747 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 5907 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 6651 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666951166655	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 6418 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666951172046	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 6167 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666951177473	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1666951178206	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1666951181682	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 1264 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 3698 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666951191388	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 7256 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666951196395	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1666951197138	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 7795 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666951254700	geckodriver	INFO	Listening on 127.0.0.1:57738
+1666951257681	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57739" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilejgx543"
+1666951258301	Marionette	INFO	Marionette enabled
+1666951258314	Marionette	INFO	Listening on port 57750
+WebDriver BiDi listening on ws://127.0.0.1:57739
+Read port: 57750
+1666951258511	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilejgx543\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57739/devtools/browser/fa801b3a-4f8e-4b19-84de-9bc4a08a45dc
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 7677 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 2798 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 3005 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 6439 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 6707 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666951291503	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 2879 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666951296193	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1666951299836	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 6300 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666951304748	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 2436 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 2363 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666951314630	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 7537 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 5461 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666951325711	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 867 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666951331917	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 3173 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666951337330	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 5251 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666951342514	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 2491 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666951347751	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 1385 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 5825 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 7816 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 4686 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666951366186	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 5948 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666951372022	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1666951376819	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 3524 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 5402 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666951386405	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 5845 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666951391048	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1666951391792	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 2314 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666951396859	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 2199 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 2693 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 441 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 2019 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666951415337	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 7371 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666951518864	geckodriver	INFO	Listening on 127.0.0.1:58582
+1666951521883	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58583" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileHJC1HR"
+1666951522475	Marionette	INFO	Marionette enabled
+1666951522484	Marionette	INFO	Listening on port 58594
+WebDriver BiDi listening on ws://127.0.0.1:58583
+Read port: 58594
+1666951522689	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileHJC1HR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58583/devtools/browser/ef661474-ae38-4f2c-bec4-52d510ca3c7e
+1666951891470	Marionette	INFO	Stopped listening on port 58594
+6951637730	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58699" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileDDXS2u"
+1666951638192	Marionette	INFO	Marionette enabled
+1666951638201	Marionette	INFO	Listening on port 58716
+Read port: 58716
+WebDriver BiDi listening on ws://127.0.0.1:58699
+1666951638292	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileDDXS2u\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58699/devtools/browser/e2aea4dc-80d3-4048-887d-cab5c176684d
+1666951891276	Marionette	INFO	Stopped listening on port 58716
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "58787" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileJMs2GW"
+1666951700462	Marionette	INFO	Marionette enabled
+1666951700473	Marionette	INFO	Listening on port 58803
+Read port: 58803
+WebDriver BiDi listening on ws://127.0.0.1:58787
+1666951700587	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileJMs2GW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58787/devtools/browser/3ef36757-7601-4f20-80a6-68e228da8862
+1666951891180	Marionette	INFO	Stopped listening on port 58803
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "58907" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileZO8XOt"
+1666951821742	Marionette	INFO	Marionette enabled
+1666951821753	Marionette	INFO	Listening on port 58926
+WebDriver BiDi listening on ws://127.0.0.1:58907
+Read port: 58926
+1666951822072	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileZO8XOt\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58907/devtools/browser/2323d295-704f-4ce9-949b-805667ff60ac
+1666951891288	Marionette	INFO	Stopped listening on port 58926
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: chrome://remote/content/marionette/cert.js, line 57: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1666951891411	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.js :: allowAllCerts.disable :: line 57"  data: no] Stack trace: allowAllCerts.disable()@cert.js:57
+destroy()@Session.jsm:206
+deleteSession()@WebDriverBiDi.jsm:148
+stop()@WebDriverBiDi.jsm:227
+observe()@resource://gre/modules/AsyncShutdown.jsm:576
+onsole.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1666953292566	geckodriver	INFO	Listening on 127.0.0.1:59692
+1666953295581	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59693" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileG1GLJb"
+1666953296230	Marionette	INFO	Marionette enabled
+1666953296240	Marionette	INFO	Listening on port 59722
+Read port: 59722
+WebDriver BiDi listening on ws://127.0.0.1:59693
+1666953296359	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileG1GLJb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59693/devtools/browser/f293cda2-3d72-4d47-a57f-97a27b3f7b55
+1666953350401	Marionette	INFO	Stopped listening on port 59721666953351553	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59802" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileu8bghj"
+1666953352129	Marionette	INFO	Marionette enabled
+1666953352140	Marionette	INFO	Listening on port 59811
+WebDriver BiDi listening on ws://127.0.0.1:59802
+Read port: 59811
+1666953352444	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileu8bghj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59802/devtools/browser/7e178bce-d59c-4051-aa1f-8e9972dc77d6
+1666953414955	geckodriver	INFO	Listening on 127.0.0.1:59843
+1666953418008	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59844" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilen8az5d"
+1666953418693	Marionette	INFO	Marionette enabled
+1666953418703	Marionette	INFO	Listening on port 59853
+Read port: 59853
+WebDriver BiDi listening on ws://127.0.0.1:59844
+1666953418816	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilen8az5d\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59844/devtools/browser/09faf944-f1e5-49e9-acb1-1306adfd346e
+1666953470978	geckodriver	INFO	Listening on 127.0.0.1:59885
+1666953474029	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59886" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileMohN1h"
+1666953474573	Marionette	INFO	Marionette enabled
+1666953474587	Marionette	INFO	Listening on port 59895
+Read port: 59895
+WebDriver BiDi listening on ws://127.0.0.1:59886
+1666953474701	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileMohN1h\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59886/devtools/browser/8adfc214-765d-4aaf-88eb-1a4ed909c266
+1666953513195	geckodriver	INFO	Listening on 127.0.0.1:59930
+1666953516230	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59931" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileuRLH60"
+1666953516917	Marionette	INFO	Marionette enabled
+1666953516926	Marionette	INFO	Listening on port 59941
+WebDriver BiDi listening on ws://127.0.0.1:59931
+Read port: 59941
+1666953517250	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileuRLH60\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59931/devtools/browser/1d1d196b-6649-4fcb-a6b6-c96ec375b097
+1666953582843	geckodriver	INFO	Listening on 127.0.0.1:59978
+1666953585858	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59979" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile7jMrZJ"
+1666953586485	Marionette	INFO	Marionette enabled
+1666953586499	Marionette	INFO	Listening on port 59989
+WebDriver BiDi listening on ws://127.0.0.1:59979
+Read port: 59989
+1666953586804	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofile7jMrZJ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59979/devtools/browser/e3c7c83b-a28c-446d-86bb-2065167936a5
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nOAuMeOBpF9evwNFXVQkLuXNj92N0OJ7uU_f3Vfdro8.js line 2 > eval line 6219 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1666953594238	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1666953594980	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1666953595723	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
