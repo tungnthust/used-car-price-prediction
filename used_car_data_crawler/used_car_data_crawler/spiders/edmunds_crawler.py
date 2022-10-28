@@ -9,9 +9,9 @@ from selenium import webdriver
 class EdmundsCrawlerSpider(scrapy.Spider):
     name = 'edmunds_crawler'
 
-    origin = 'https://www.edmunds.com/inventory/srp.html?inventorytype=used%2Ccpo&radius=500&engineType=electric&price='
+    origin = 'https://www.edmunds.com/inventory/srp.html?inventorytype=used%2Ccpo&radius=500&price='
     allowed_domains = ['www.edmunds.com']
-    start_urls = ['https://www.edmunds.com/inventory/srp.html?inventorytype=used%2Ccpo&radius=500&engineType=electric&price=0-10000']
+    start_urls = ['https://www.edmunds.com/inventory/srp.html?inventorytype=used%2Ccpo&radius=500&price=0-10000']
     driver = webdriver.Firefox(executable_path=which('geckodriver'))
 
     def parse(self, response):
