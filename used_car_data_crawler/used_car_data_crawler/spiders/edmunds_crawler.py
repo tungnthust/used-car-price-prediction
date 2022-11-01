@@ -89,6 +89,7 @@ class EdmundsCrawlerSpider(scrapy.Spider):
                 edition = design_overview[0][:-2]
             except:
                 pass
+            print("77777", design_overview[1])
             for type_ref in utils.CAR_TYPE:
                 if type_ref in design_overview[1]:
                     car_type = type_ref

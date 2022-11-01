@@ -13876,3 +13876,66 @@ TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
 TimedPromise@chrome://remote/content/marionette/sync.js:221:10
 interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
 webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1667287058836	geckodriver	INFO	Listening on 127.0.0.1:57126
+1667287061826	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57127" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileXCUQO2"
+1667287062744	Marionette	INFO	Marionette enabled
+1667287062755	Marionette	INFO	Listening on port 57136
+Read port: 57136
+WebDriver BiDi listening on ws://127.0.0.1:57127
+1667287062960	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileXCUQO2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57127/devtools/browser/95081d8c-316a-4941-95e3-d3c7eee9bf79
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 2665 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667287078677	Marionette	INFO	Stopped listening on port 57136
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667312638227	geckodriver	INFO	Listening on 127.0.0.1:63980
+1667312641172	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63981" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilegfpGgI"
+1667312642146	Marionette	INFO	Marionette enabled
+1667312642158	Marionette	INFO	Listening on port 63991
+Read port: 63991
+WebDriver BiDi listening on ws://127.0.0.1:63981
+1667312642285	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofilegfpGgI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63981/devtools/browser/074b40fd-4dfd-441e-a4c4-64b0bf792a41
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vLbRz7g6TQ5oo3iSl-9A8cc-tNTKSUSKynQIdvKxkcY.js line 2 > eval line 4625 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\Lenovo\AppData\Local\Temp\rust_mozprofilegfpGgI\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(C:\Users\Lenovo\AppData\Local\Temp\rust_mozprofilegfpGgI\thumbnails) because it does not exist
+1667321021523	geckodriver	INFO	Listening on 127.0.0.1:51601
+1667321024613	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51602" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileQf1J7A"
+1667321025504	Marionette	INFO	Marionette enabled
+1667321025521	Marionette	INFO	Listening on port 51614
+Read port: 51614
+WebDriver BiDi listening on ws://127.0.0.1:51602
+1667321025656	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileQf1J7A\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51602/devtools/browser/3af6d738-c00c-4b4e-b4b5-5b26047c150e
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.edmunds.com."
+1667321038096	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vLbRz7g6TQ5oo3iSl-9A8cc-tNTKSUSKynQIdvKxkcY.js line 2 > eval line 6845 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667321180458	geckodriver	INFO	Listening on 127.0.0.1:51763
+1667321183514	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51764" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileElpBvI"
+1667321184160	Marionette	INFO	Marionette enabled
+1667321184170	Marionette	INFO	Listening on port 51775
+Read port: 51775
+WebDriver BiDi listening on ws://127.0.0.1:51764
+1667321184269	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lenovo\\AppData\\Local\\Temp\\rust_mozprofileElpBvI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51764/devtools/browser/aab05065-5e8c-40f8-b543-535263a1d68d
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vLbRz7g6TQ5oo3iSl-9A8cc-tNTKSUSKynQIdvKxkcY.js line 2 > eval line 518 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667321265235	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
