@@ -52,7 +52,7 @@ class EdmundsCrawlerSpider(scrapy.Spider):
         name = url[4].replace('-', ' ')
         released_year = int(url[5])
         self.driver.get(url_str)
-        time.sleep(1)
+        # time.sleep(1)
         try:
             view_more_info_button = self.driver.find_element('xpath',
                                                              '//*[contains(@class, "options-and-packages")]/button')
