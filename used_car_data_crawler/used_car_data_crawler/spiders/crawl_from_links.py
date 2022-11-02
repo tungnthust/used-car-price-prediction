@@ -12,7 +12,10 @@ class LinksCrawlerSpider(scrapy.Spider):
     name = 'crawlfromlinks'
 
     start_urls = []
-    driver = webdriver.Firefox(executable_path=which('C:\geckodriver-v0.32.0-win64\geckodriver.exe'))
+    driver = webdriver.Firefox(executable_path=which('geckodriver.exe'))
+
+    def driver_init(self):
+        self.driver = webdriver.Firefox(executable_path=which('geckodriver.exe'))
 
     with open('./links/fullsizevan.csv', newline='\n') as csvfile:
         links = csv.reader(csvfile, delimiter='\n')
@@ -27,6 +30,7 @@ class LinksCrawlerSpider(scrapy.Spider):
         name = url[4].replace('-', ' ')
         released_year = int(url[5])
         self.driver.get(url_str)
+
         # time.sleep(0.1)
         try:
             view_more_info_button = self.driver.find_element('xpath',
@@ -173,6 +177,9 @@ class LinksCrawlerSpider(scrapy.Spider):
             )
         except:
             price = None
+            self.driver.close()
+            self.driver_init()
+
         try:
             options_cost = int(
                 response.xpath('//*[contains(text(),"Total Value")]/parent::div/following-sibling::div/text()').get()[
