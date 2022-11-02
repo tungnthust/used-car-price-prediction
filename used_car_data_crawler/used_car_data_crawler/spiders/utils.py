@@ -12,6 +12,7 @@ CAR_TYPE = [
     'SUV',
     'Cab',
     'Van',
+    'Cargo',
     'Coupe',
     'Full Size Van',
     'Hatchback',
