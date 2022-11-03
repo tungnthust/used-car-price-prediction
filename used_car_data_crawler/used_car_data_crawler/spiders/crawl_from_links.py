@@ -17,7 +17,7 @@ class LinksCrawlerSpider(scrapy.Spider):
     def driver_init(self):
         self.driver = webdriver.Firefox(executable_path=which('geckodriver.exe'))
 
-    with open('./links/fullsizevan.csv', newline='\n') as csvfile:
+    with open('./links/truck.csv', newline='\n') as csvfile:
         links = csv.reader(csvfile, delimiter='\n')
         for row in links:
             start_urls.append(row[0])
