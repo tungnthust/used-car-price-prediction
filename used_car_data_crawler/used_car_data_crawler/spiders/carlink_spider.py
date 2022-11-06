@@ -9,7 +9,7 @@ class CarLinkSpider(scrapy.Spider):
     origin = 'https://www.edmunds.com/inventory/srp.html?inventorytype=used%2Ccpo&bodyType=SUV&radius=500&price='
     allowed_domains = ['www.edmunds.com']
     start_urls = [origin+'0-10000']
-    driver = webdriver.Firefox(executable_path=which('geckodriver.exe'))
+    # driver = webdriver.Firefox(executable_path="C:/Users/Lenovo/Desktop/ML/geckodriver-v0.32.0-win64/geckodriver.exe")
 
     def parse(self, response):
         for i in range(0, 100):

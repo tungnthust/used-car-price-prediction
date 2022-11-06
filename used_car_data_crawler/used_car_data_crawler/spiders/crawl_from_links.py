@@ -13,11 +13,11 @@ class LinksCrawlerSpider(scrapy.Spider):
 
     start_urls = ['https://www.edmunds.com/']
     urls = []
-    driver = webdriver.Firefox(executable_path=which('geckodriver.exe'))
+    driver = webdriver.Firefox(executable_path="C:/Users/Lenovo/Desktop/ML/geckodriver-v0.32.0-win64/geckodriver.exe")
 
     def driver_init(self):
-        self.driver = webdriver.Firefox(executable_path=which('geckodriver.exe'))
-    crawl_type = 'sedan'
+        self.driver = webdriver.Firefox(executable_path="C:/Users/Lenovo/Desktop/ML/geckodriver-v0.32.0-win64/geckodriver.exe")
+    crawl_type = 'suv'
     with open(f'./links/{crawl_type}.csv', newline='\n') as csvfile:
         links = csv.reader(csvfile, delimiter='\n')
         for row in links:
