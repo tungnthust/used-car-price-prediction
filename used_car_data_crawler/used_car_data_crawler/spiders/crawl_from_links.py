@@ -6,23 +6,43 @@ import re
 from . import utils
 from selenium import webdriver
 import csv
-
+import numpy as np
 
 class LinksCrawlerSpider(scrapy.Spider):
     name = 'crawlfromlinks'
 
-    start_urls = []
+    start_urls = ['https://www.edmunds.com/']
+    urls = []
     driver = webdriver.Firefox(executable_path=which('geckodriver.exe'))
 
     def driver_init(self):
         self.driver = webdriver.Firefox(executable_path=which('geckodriver.exe'))
-
-    with open('./links/truck.csv', newline='\n') as csvfile:
+    crawl_type = 'sedan'
+    with open(f'./links/{crawl_type}.csv', newline='\n') as csvfile:
         links = csv.reader(csvfile, delimiter='\n')
         for row in links:
-            start_urls.append(row[0])
+            urls.append(row[0])
+    crawled_index = []
+    try:
+        with open(f'./links/{crawl_type}-ckpt.txt', 'r') as file:
+            crawled_index = file.readlines()
+    except:
+        pass
 
     def parse(self, response):
+        for idx, url in enumerate(self.urls):
+            yield scrapy.Request(url, meta={'idx': idx}, callback=self.parse_data)
+
+    def parse_data(self, response):
+        index = response.request.meta['idx']
+        if index in self.crawled_index:
+            return
+
+        self.crawled_index = np.append(self.crawled_index, index).astype(int)
+
+        with open(f'./links/{self.crawl_type}-ckpt.txt', 'a') as file:
+            file.write(f'{index}\n')
+
         url_str = response.request.url
         url = url_str.split('/')
         vin_id = url[7]
