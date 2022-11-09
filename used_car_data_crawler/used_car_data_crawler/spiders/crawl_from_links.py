@@ -23,6 +23,7 @@ class LinksCrawlerSpider(scrapy.Spider):
         for row in links:
             urls.append(row[0])
     crawled_index = []
+    urls = urls[:100000]
     try:
         with open(f'./links/{crawl_type}-ckpt.txt', 'r') as file:
             crawled_index = file.readlines()
@@ -60,14 +61,14 @@ class LinksCrawlerSpider(scrapy.Spider):
             pass
 
         try:
-            button = self.driver.find_element('xpath', '//*[contains(@data-subaction-name, "view_features")]')
+            button = self.driver.find_element('xpath', '//*[contains(@class, "modal-open-button-container")]//*[contains(@data-subaction-name, "view_features")]')
             button.click()
         except:
             try:
                 view_more_info_button = self.driver.find_element('xpath',
                                                                  '//*[contains(@class, "features-and-specs")]/button')
                 view_more_info_button.click()
-                button = self.driver.find_element('xpath', '//*[contains(@data-subaction-name, "view_features")]')
+                button = self.driver.find_element('xpath', '//*[contains(@class, "modal-open-button-container")]//*[contains(@data-subaction-name, "view_features")]')
                 button.click()
             except:
                 pass
@@ -118,7 +119,13 @@ class LinksCrawlerSpider(scrapy.Spider):
                     .split(' ')[0].replace(',', '')
             )
         except:
-            traveled_miles = None
+            try:
+                traveled_miles = int(
+                    response.xpath('//*[@id="summary"]//*[contains(text(), "Mileage")]/following-sibling::div/text()').get()
+                    .replace(',', '')
+                )
+            except:
+                traveled_miles = None
         try:
             exterior_color = response.xpath('//*[@id="vin_exterior_color_swatch"]/span/@style').get().split(':')[1]
         except:
@@ -128,8 +135,10 @@ class LinksCrawlerSpider(scrapy.Spider):
         except:
             interior_color = None
         try:
-            transmission = response.xpath('//*[@title="Transmission"]/parent::div/following-sibling::div/text()').get() \
-                .split()[0]
+            transmission = response.xpath('//*[@title="Transmission"]/parent::div/following-sibling::div/text()').get()
+            if transmission is None:
+                transmission = response.xpath('//*[@id="summary"]//*[contains(text(), "Transmission")]/following-sibling::div/text()').get()
+
         except:
             transmission = None
 
@@ -138,21 +147,38 @@ class LinksCrawlerSpider(scrapy.Spider):
                 response.xpath('//*[@title="Electric range"]/parent::div/following-sibling::div/text()').get() \
                 .split('mi')[0])
         except:
-            electric_range = None
+            try:
+                electric_range = float(
+                    response.xpath(
+                        '//*[@id="summary"]//*[contains(text(), "EPA Electricity Range")]/following-sibling::div/text()').get() \
+                        .split('mi')[0])
+            except:
+                electric_range = None
 
         try:
             electric_charge_time = float(
                 response.xpath('//*[@title="Electric charge time"]/parent::div/following-sibling::div/text()').get() \
                 .split('hr')[0])
         except:
-            electric_charge_time = None
+            try:
+                electric_charge_time = float(
+                    response.xpath(
+                        '//*[@id="summary"]//*[contains(text(), "Charge")]/following-sibling::div/text()').get() \
+                        .split('hr')[0])
+            except:
+                electric_charge_time = None
 
         try:
             drive_train = response.xpath('//*[@title="Drivetrain"]/parent::div/following-sibling::div/text()').get()
+            if drive_train is None:
+                drive_train = response.xpath(
+                    '//*[@id="summary"]//*[contains(text(), "Drivetrain")]/following-sibling::div/text()').get()
         except:
             drive_train = None
         try:
             engine_type = response.xpath('//*[@title="Engine"]/parent::div/following-sibling::div/text()').get()
+            if engine_type is None:
+                engine_type = response.xpath('//*[@id="summary"]//*[contains(text(), "Engine")]/following-sibling::div/text()').get()
         except:
             engine_type = None
         try:
@@ -160,10 +186,19 @@ class LinksCrawlerSpider(scrapy.Spider):
                 response.xpath('//*[@title="Horsepower"]/parent::div/following-sibling::div/text()').get().split()[0]
             )
         except:
-            horse_power = None
+            try:
+                horse_power = int(
+                    response.xpath(
+                        '//*[@id="summary"]//*[contains(text(), "Horsepower")]/following-sibling::div/text()').get()
+                    .split()[0]
+                )
+            except:
+                horse_power = None
 
         try:
             fuel_consumption = response.xpath('//*[@title="MPG"]/parent::div/following-sibling::div/text()').get()
+            if fuel_consumption is None:
+                fuel_consumption = response.xpath('//*[@id="summary"]//*[contains(text(), "MPG")]/following-sibling::div/text()').get()
         except:
             fuel_consumption = None
 
@@ -172,7 +207,12 @@ class LinksCrawlerSpider(scrapy.Spider):
                 response.xpath('//*[@title="Seats"]/parent::div/following-sibling::div/text()').get().split()[0]
             )
         except:
-            num_seats = None
+            try:
+                num_seats = int(
+                    response.xpath('//*[@id="summary"]//*[contains(text(), "Seats")]/following-sibling::div/text()').get()
+                )
+            except:
+                num_seats = None
 
         try:
             num_accidents = int(
@@ -207,7 +247,15 @@ class LinksCrawlerSpider(scrapy.Spider):
                     .replace(',', '')
             )
         except:
-            options_cost = 0
+            try:
+                options_cost = int(
+                    response.xpath(
+                        '//*[contains(text(),"Total Original Value")]/parent::div/following-sibling::div/text()').get()[
+                    1:]
+                        .replace(',', '')
+                )
+            except:
+                options_cost = 0
 
         features = response.xpath('//*[contains(@class, "modal-content")]/div/ul/li/span/text()').getall()
         if len(features) == 0:

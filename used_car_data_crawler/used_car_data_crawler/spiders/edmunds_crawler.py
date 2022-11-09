@@ -12,7 +12,7 @@ class EdmundsCrawlerSpider(scrapy.Spider):
     origin = 'https://www.edmunds.com/inventory/srp.html?inventorytype=used%2Ccpo&radius=500&price='
     allowed_domains = ['www.edmunds.com']
     start_urls = ['https://www.edmunds.com/inventory/srp.html?inventorytype=used%2Ccpo&radius=500&price=0-10000']
-    # driver = webdriver.Firefox(executable_path="C:/Users/Lenovo/Desktop/ML/geckodriver-v0.32.0-win64/geckodriver.exe")
+    driver = webdriver.Firefox(executable_path="C:/Users/Lenovo/Desktop/ML/geckodriver-v0.32.0-win64/geckodriver.exe")
 
     def parse(self, response):
         for i in range(0, 100):
@@ -45,6 +45,15 @@ class EdmundsCrawlerSpider(scrapy.Spider):
                 print("----------------------End----------------------")
 
     def parse_data(self, response):
+        # index = response.request.meta['idx']
+        # if index in self.crawled_index:
+        #     return
+        #
+        # self.crawled_index = np.append(self.crawled_index, index).astype(int)
+        #
+        # with open(f'./links/{self.crawl_type}-ckpt.txt', 'a') as file:
+        #     file.write(f'{index}\n')
+
         url_str = response.request.url
         url = url_str.split('/')
         vin_id = url[7]
@@ -52,7 +61,8 @@ class EdmundsCrawlerSpider(scrapy.Spider):
         name = url[4].replace('-', ' ')
         released_year = int(url[5])
         self.driver.get(url_str)
-        time.sleep(1)
+
+        # time.sleep(0.1)
         try:
             view_more_info_button = self.driver.find_element('xpath',
                                                              '//*[contains(@class, "options-and-packages")]/button')
@@ -65,7 +75,8 @@ class EdmundsCrawlerSpider(scrapy.Spider):
             button.click()
         except:
             try:
-                view_more_info_button = self.driver.find_element('xpath', '//*[contains(@class, "features-and-specs")]/button')
+                view_more_info_button = self.driver.find_element('xpath',
+                                                                 '//*[contains(@class, "features-and-specs")]/button')
                 view_more_info_button.click()
                 button = self.driver.find_element('xpath', '//*[contains(@data-subaction-name, "view_features")]')
                 button.click()
@@ -100,7 +111,7 @@ class EdmundsCrawlerSpider(scrapy.Spider):
                     car_type = type_ref
                     car_type_index = overview_str.index(type_ref)
                     break
-            edition = overview_str[:(car_type_index-1)]
+            edition = overview_str[:(car_type_index - 1)]
 
         engine_capacity = None
         num_cylinder = None
@@ -114,11 +125,17 @@ class EdmundsCrawlerSpider(scrapy.Spider):
                     num_cylinder = int(item[:-3])
         try:
             traveled_miles = int(
-                                response.xpath('//*[@id="summary"]/section/div/ul[1]/li[1]/div[2]/text()').get()
-                                .split(' ')[0].replace(',', '')
+                response.xpath('//*[@id="summary"]/section/div/ul[1]/li[1]/div[2]/text()').get()
+                    .split(' ')[0].replace(',', '')
             )
         except:
-            traveled_miles = None
+            try:
+                traveled_miles = int(
+                    response.xpath('//*[@id="summary"]//*[contains(text(), "Mileage")]/following-sibling::div/text()').get()
+                    .replace(',', '')
+                )
+            except:
+                traveled_miles = None
         try:
             exterior_color = response.xpath('//*[@id="vin_exterior_color_swatch"]/span/@style').get().split(':')[1]
         except:
@@ -128,29 +145,50 @@ class EdmundsCrawlerSpider(scrapy.Spider):
         except:
             interior_color = None
         try:
-            transmission = response.xpath('//*[@title="Transmission"]/parent::div/following-sibling::div/text()').get() \
-                .split()[0]
+            transmission = response.xpath('//*[@title="Transmission"]/parent::div/following-sibling::div/text()').get()
+            if transmission is None:
+                transmission = response.xpath('//*[@id="summary"]//*[contains(text(), "Transmission")]/following-sibling::div/text()').get()
+
         except:
             transmission = None
 
         try:
-            electric_range = float(response.xpath('//*[@title="Electric range"]/parent::div/following-sibling::div/text()').get() \
-                            .split('mi')[0])
+            electric_range = float(
+                response.xpath('//*[@title="Electric range"]/parent::div/following-sibling::div/text()').get() \
+                .split('mi')[0])
         except:
-            electric_range = None
+            try:
+                electric_range = float(
+                    response.xpath(
+                        '//*[@id="summary"]//*[contains(text(), "EPA Electricity Range")]/following-sibling::div/text()').get() \
+                        .split('mi')[0])
+            except:
+                electric_range = None
 
         try:
-            electric_charge_time = float(response.xpath('//*[@title="Electric charge time"]/parent::div/following-sibling::div/text()').get() \
-                            .split('hr')[0])
+            electric_charge_time = float(
+                response.xpath('//*[@title="Electric charge time"]/parent::div/following-sibling::div/text()').get() \
+                .split('hr')[0])
         except:
-            electric_charge_time = None
+            try:
+                electric_charge_time = float(
+                    response.xpath(
+                        '//*[@id="summary"]//*[contains(text(), "Charge")]/following-sibling::div/text()').get() \
+                        .split('hr')[0])
+            except:
+                electric_charge_time = None
 
         try:
             drive_train = response.xpath('//*[@title="Drivetrain"]/parent::div/following-sibling::div/text()').get()
+            if drive_train is None:
+                drive_train = response.xpath(
+                    '//*[@id="summary"]//*[contains(text(), "Drivetrain")]/following-sibling::div/text()').get()
         except:
             drive_train = None
         try:
             engine_type = response.xpath('//*[@title="Engine"]/parent::div/following-sibling::div/text()').get()
+            if engine_type is None:
+                engine_type = response.xpath('//*[@id="summary"]//*[contains(text(), "Engine")]/following-sibling::div/text()').get()
         except:
             engine_type = None
         try:
@@ -158,19 +196,33 @@ class EdmundsCrawlerSpider(scrapy.Spider):
                 response.xpath('//*[@title="Horsepower"]/parent::div/following-sibling::div/text()').get().split()[0]
             )
         except:
-            horse_power = None
+            try:
+                horse_power = int(
+                    response.xpath(
+                        '//*[@id="summary"]//*[contains(text(), "Horsepower")]/following-sibling::div/text()').get()
+                    .split()[0]
+                )
+            except:
+                horse_power = None
 
         try:
             fuel_consumption = response.xpath('//*[@title="MPG"]/parent::div/following-sibling::div/text()').get()
+            if fuel_consumption is None:
+                fuel_consumption = response.xpath('//*[@id="summary"]//*[contains(text(), "MPG")]/following-sibling::div/text()').get()
         except:
             fuel_consumption = None
 
         try:
             num_seats = int(
-                    response.xpath('//*[@title="Seats"]/parent::div/following-sibling::div/text()').get().split()[0]
+                response.xpath('//*[@title="Seats"]/parent::div/following-sibling::div/text()').get().split()[0]
             )
         except:
-            num_seats = None
+            try:
+                num_seats = int(
+                    response.xpath('//*[@id="summary"]//*[contains(text(), "Seats")]/following-sibling::div/text()').get()
+                )
+            except:
+                num_seats = None
 
         try:
             num_accidents = int(
@@ -190,17 +242,30 @@ class EdmundsCrawlerSpider(scrapy.Spider):
             usage = None
         try:
             price = int(
-                response.xpath('//*[@class="price-summary"]//*[contains(text(), "$")]/text()').get()[1:].replace(',', '')
+                response.xpath('//*[@class="price-summary"]//*[contains(text(), "$")]/text()').get()[1:].replace(',',
+                                                                                                                 '')
             )
         except:
             price = None
+            self.driver.close()
+            self.driver_init()
+
         try:
             options_cost = int(
-                    response.xpath('//*[contains(text(),"Total Value")]/parent::div/following-sibling::div/text()').get()[1:]
+                response.xpath('//*[contains(text(),"Total Value")]/parent::div/following-sibling::div/text()').get()[
+                1:]
                     .replace(',', '')
-                )
+            )
         except:
-            options_cost = 0
+            try:
+                options_cost = int(
+                    response.xpath(
+                        '//*[contains(text(),"Total Original Value")]/parent::div/following-sibling::div/text()').get()[
+                    1:]
+                        .replace(',', '')
+                )
+            except:
+                options_cost = 0
 
         features = response.xpath('//*[contains(@class, "modal-content")]/div/ul/li/span/text()').getall()
         if len(features) == 0:
