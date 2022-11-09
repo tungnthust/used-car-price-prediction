@@ -259,7 +259,7 @@ class LinksCrawlerSpider(scrapy.Spider):
         features = response.xpath('//*[contains(@class, "modal-content")]/div/ul/li/span/text()').getall()
         if len(features) == 0:
             features = response.xpath(
-                '//*[contains(@class, "features-and-specs")]/ul/li/text()').getall()
+                '//*[contains(@class, "features-and-specs")]/div/div/div/ul/li/text()').getall()
         if len(features) == 0:
             features_category = self.driver.find_elements('xpath', '//*[contains(@class, "features-content")]/div/details')
             for category in features_category:
