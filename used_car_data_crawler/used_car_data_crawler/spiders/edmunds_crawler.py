@@ -271,6 +271,12 @@ class EdmundsCrawlerSpider(scrapy.Spider):
         if len(features) == 0:
             features = response.xpath(
                 '//*[contains(@class, "features-and-specs")]/div/div/div/ul/li/text()').getall()
+        if len(features) == 0:
+            features_category = self.driver.find_elements('xpath', '//*[contains(@class, "features-content")]/div/details')
+            for category in features_category:
+                category.click()
+            response = scrapy.selector.Selector(text=self.driver.page_source.encode('utf-8'))
+            features = response.xpath('//*[contains(@class, "features-content")]/div/details/ul/li/text()').getall()
 
         output = {
             'vin_id': vin_id,

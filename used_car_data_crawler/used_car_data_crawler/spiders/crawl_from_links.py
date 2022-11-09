@@ -239,7 +239,6 @@ class LinksCrawlerSpider(scrapy.Spider):
             price = None
             self.driver.close()
             self.driver_init()
-
         try:
             options_cost = int(
                 response.xpath('//*[contains(text(),"Total Value")]/parent::div/following-sibling::div/text()').get()[
@@ -260,7 +259,14 @@ class LinksCrawlerSpider(scrapy.Spider):
         features = response.xpath('//*[contains(@class, "modal-content")]/div/ul/li/span/text()').getall()
         if len(features) == 0:
             features = response.xpath(
-                '//*[contains(@class, "features-and-specs")]/div/div/div/ul/li/text()').getall()
+                '//*[contains(@class, "features-and-specs")]/ul/li/text()').getall()
+        if len(features) == 0:
+            features_category = self.driver.find_elements('xpath', '//*[contains(@class, "features-content")]/div/details')
+            for category in features_category:
+                category.click()
+            response = scrapy.selector.Selector(text=self.driver.page_source.encode('utf-8'))
+            features = response.xpath('//*[contains(@class, "features-content")]/div/details/ul/li/text()').getall()
+
 
         output = {
             'vin_id': vin_id,
